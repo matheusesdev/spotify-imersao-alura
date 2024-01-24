@@ -28,13 +28,25 @@ body {
     width: 80px;
 }
 
+.sidebar_navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+}
+
 .sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
 
 .sidebar ul li {
-    padding: 10px 0;
+    padding: 10px 0px;
+
 }
 
 .sidebar nav ul li a {
@@ -45,3 +57,38 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+
+
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library_button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
